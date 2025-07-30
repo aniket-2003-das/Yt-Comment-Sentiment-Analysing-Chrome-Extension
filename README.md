@@ -73,8 +73,7 @@ chrome://extensions
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/youtube
-
+    - Save the URI: 017820662558.dkr.ecr.us-east-1.amazonaws.com/mlproj
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
@@ -121,3 +120,5 @@ mlflow-bucket-2k25/158235401992273367 => Exp 3 - TfIdf Trigram max_features => 4
 mlflow-bucket-2k25/202703567213436569 => Exp 4 - Handling Imbalanced Data => 5_experiment_4_handling_imbalanced_data.ipynb
 mlflow-bucket-2k25/307010257039056051 => LightGBM HP Tuning => 7_experiment_6_lightgbm_detailed_hpt.ipynb
 <!-- mlflow-bucket-2k25/667096136224404258 => Exp 5 - ML Algos with HP Tuning => 6_experiment_5_xgboost_with_hpt.ipynb but s3 object 6_experiment_5_xgboost_with_hpt.ipynb but s3 object cant be stored because memory of t2.micro - 30 GB was full -->
+
+mlflow-bucket-2k25/584846746489363884 => LightGBM model DVC main artifact
