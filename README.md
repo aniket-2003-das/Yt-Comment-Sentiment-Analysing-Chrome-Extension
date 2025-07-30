@@ -112,3 +112,12 @@ chrome://extensions
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+
+
+mlflow-bucket-2k25/992197401558128982 => My RF Baseline => 2_experiment_1_baseline_model.ipynb
+mlflow-bucket-2k25/279926228034498244 => Exp 2 - BoW vs TfIdf => 3_experiment_2_bow_tfidf.ipynb
+mlflow-bucket-2k25/158235401992273367 => Exp 3 - TfIdf Trigram max_features => 4_experiment_3_tfidf_(1,3)_max_features.ipynb
+mlflow-bucket-2k25/202703567213436569 => Exp 4 - Handling Imbalanced Data => 5_experiment_4_handling_imbalanced_data.ipynb
+mlflow-bucket-2k25/307010257039056051 => LightGBM HP Tuning => 7_experiment_6_lightgbm_detailed_hpt.ipynb
+<!-- mlflow-bucket-2k25/667096136224404258 => Exp 5 - ML Algos with HP Tuning => 6_experiment_5_xgboost_with_hpt.ipynb but s3 object 6_experiment_5_xgboost_with_hpt.ipynb but s3 object cant be stored because memory of t2.micro - 30 GB was full -->
