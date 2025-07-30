@@ -73,8 +73,7 @@ chrome://extensions
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 017820662558.dkr.ecr.us-east-1.amazonaws.com/mlproj
-	
+    - Save the URI: demo=>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
 ## 4. Create EC2 machine (Ubuntu) 
 
 ## 5. Open EC2 and Install docker in EC2 Machine:
@@ -106,7 +105,7 @@ chrome://extensions
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION =
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
@@ -122,3 +121,17 @@ mlflow-bucket-2k25/307010257039056051 => LightGBM HP Tuning => 7_experiment_6_li
 <!-- mlflow-bucket-2k25/667096136224404258 => Exp 5 - ML Algos with HP Tuning => 6_experiment_5_xgboost_with_hpt.ipynb but s3 object 6_experiment_5_xgboost_with_hpt.ipynb but s3 object cant be stored because memory of t2.micro - 30 GB was full -->
 
 mlflow-bucket-2k25/584846746489363884 => LightGBM model DVC main artifact
+
+
+
+
+
+<!-- # Create a folder
+$ mkdir actions-runner && cd actions-runnerCopied!# Download the latest runner package
+$ curl -o actions-runner-linux-x64-2.327.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.327.1/actions-runner-linux-x64-2.327.1.tar.gz# Optional: Validate the hash
+$ echo "d68ac1f500b747d1271d9e52661c408d56cffd226974f68b7dc813e30b9e0575  actions-runner-linux-x64-2.327.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-linux-x64-2.327.1.tar.gz
+Configure
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/aniket-2003-das/Yt-Comment-Sentiment-Analysing-Chrome-Extension --token BD2FUO44BOM4HW5CG3NRHMDIRJFH2# Last step, run it!
+$ ./run.sh -->
